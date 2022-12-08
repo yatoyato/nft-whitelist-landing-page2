@@ -986,9 +986,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
-        <div>
+        <center>
+          <img className={styles.image} src="./banner.jpg" />
           <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
-        </div>
+        </center>
 
         <div>
         <div>perWhitelistLimit: {numberOfMaxPerWhitelisted}</div>
